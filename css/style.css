@@ -5,12 +5,21 @@
   --navy-blue: #2e2f42;
   --ocean: #404bbf;
   --cloud: #f4f4fd;
+  --cornflower: #E7E9FC;
 }
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
   line-height: 24px;
   background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li{
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 /* navbar */
 
@@ -162,3 +171,27 @@ body {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
 }
+/* container */
+.section-container{
+  width: 1158px;
+  padding: 120px 0
+}
+.container{
+  width: 1158px;
+}
+.header-navbar{
+  border-bottom: 1px solid 
+  var(--cornflower);
+  display: flex;
+  justify-content: space-around;
+}
+.navbar{
+  display: flex;
+}
+.navbar-list{
+  display: flex;
+}
+.navbar-address-list{
+  display: flex;
+}
+
